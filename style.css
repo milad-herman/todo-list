@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('YekanBakh-Medium.eot') format('eot');
+    src: url('YekanBakh-Medium.ttf') format('ttf');
+    src: url('YekanBakh-Medium.woff') format('woff');
+}
+*{
+    font-family: yekan;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-control{
+    width: 70%;
+}
+
+li{
+    padding:1rem 4rem;
+    font-size: larger;
+    position: relative;
+    user-select: none;
+}
+li:nth-child(even){
+    background-color: rgb(231, 231, 231);
+}
+li:hover{
+    background-color: silver;
+}
+
+.remove{
+    padding:1rem;
+    margin: 1px;
+    background-color: rgb(211, 88, 88);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.remove:hover{
+    background-color: rgb(255, 2, 2);
+}
+.tik{
+    position: absolute;
+    left: 30px;
+}
+
+.compelete{
+    background-color: rgb(109, 109, 109)!important;
+    text-decoration: line-through;
+}
